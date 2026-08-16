@@ -64,7 +64,7 @@ commentaryRouter.post("/", async (req, res) => {
             .insert(commentary)
             .values({
                 matchId: paramsResult.data.id,
-                minutes: bodyResult.minutes,
+                minute: bodyResult.minute,
                 sequence: bodyResult.sequence,
                 period: bodyResult.period,
                 eventType: bodyResult.eventType,
