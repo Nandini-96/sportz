@@ -1,7 +1,7 @@
 import arcjet, {detectBot, shield, slidingWindow} from "@arcjet/node";
 
 const arcjetKey=process.env.ARCJET_KEY;
-const arcjetMode=process.env.ARCJECT_MODE ==='DRY_RUN'?"DRY_RUN":"LIVE";
+const arcjetMode=process.env.ARCJET_MODE ==='DRY_RUN'?"DRY_RUN":"LIVE";
 
 // DRY_RUN Mode allows you to see what arcjet would block without actually blocking it.
 
