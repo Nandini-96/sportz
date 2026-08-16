@@ -143,7 +143,7 @@ export function attachWebSocketServer(server){
     }
 
     function broadcastCommentary(matchId,comment) {
-        broadcastToAll(matchId, {type: 'commentary', data: comment});
+        broadcastToMatch(matchId, {type: 'commentary', data: comment});
     }
     return {broadcastMatchCreated,broadcastCommentary};
 }
